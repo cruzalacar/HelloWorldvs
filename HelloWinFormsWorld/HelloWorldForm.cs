@@ -20,7 +20,7 @@ namespace HelloWinFormsWorld
         private void OnSayHello(object sender, EventArgs e)
         {
             //obtain the name of the user
-            string userName = textBox1.Text;
+            string userName = _txtUserName.Text;
 
             //say hello to the user
             MessageBox.Show(String.Format("Hello {0}", userName), "Hello WinForm World");
