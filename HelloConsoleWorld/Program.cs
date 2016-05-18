@@ -14,10 +14,10 @@ namespace HelloConsoleWorld
             Console.WriteLine("Hi, what is your name?");
 
             //read the user input
-            string userInput = Console.ReadLine();
+            string userName = Console.ReadLine();
 
             //Say hello to them
-            Console.WriteLine("Hello {0}", userInput);
+            Console.WriteLine("Hello {0}", userName);
 
             //Pause and wait for the user to exit to program
             Console.ReadKey();
